@@ -6,10 +6,10 @@
 &nbsp;
 
 
-`body{`
-&nbsp;
+```body{
 
-`backgroud-color:blue;`
-&nbsp;
 
-`}`
+backgroud-color:blue;
+
+
+}```
