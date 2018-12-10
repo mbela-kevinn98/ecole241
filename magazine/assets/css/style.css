@@ -1,0 +1,126 @@
+*{border: 0px;;
+margin:0px;
+padding: 0px;
+outline:0px;}
+@font-face
+{
+  font-family:"monti";
+  src:url("../fonts/MotionPicture_PersonalUseOnly.ttf");
+}
+
+.logo{font-family:"monti";
+margin-top: 5px;
+font-size: 50px; 
+text-align: center; 
+word-spacing: -10px;
+}
+
+.Deshi{color: gray;
+}
+.Mag{color:#08b597; }
+
+
+.menu1{
+  padding: 0px;
+  margin: 0px;m
+  list-style-type: none;
+  background-color: #08b597;}
+
+.margin{margin-left: 140px;}
+
+.nav1 li {
+  display: inline-block;
+    padding-top: 9px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    
+    }
+
+a:link{color:#fff;
+text-decoration: none;
+padding-top: -30px;
+}
+.nav1 hover{background-color: }
+
+h1{font-family: MotionPicture_PersonalUseOnly.ttf;
+}  
+
+.menu2{
+  padding: 0px;
+  margin-left: 150px;
+  list-style-type: none;
+  background-color: #fff;}
+
+.nav2 li {
+	display: inline-block;
+    padding:0px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    
+    }
+
+.nav2 a:link{color:black;
+text-decoration: none;
+
+}
+
+
+hr{background-color: blue;}
+
+body{
+	background-image: url
+} 
+img{width: 100%;}
+
+img{
+position: absolute;
+z-index: -1;}
+
+.txt1{color: #fff;
+font-size: 30px;
+font-weight: bold;
+
+ }
+ .lin{border: 1px solid #08b597;
+  background-color:#08b597;
+  color: #fff;
+  border-radius: 30px;
+  outline: solid 2px.3;
+  padding: 3px;
+ }
+ .baniere{
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  background-image:url(../img/fond-top.jpg);
+  background-repeat: no-repeat;
+ }
+ .t-card{
+  display: block;
+  margin-top: 35px;
+  
+  
+ }
+ .aligne1{
+  padding: 135px 270px;
+ }
+ .date{color: #fff;
+  font-size: 10px;}
+  .card{
+    width: 110.80px;
+    height: 50px;
+    background-image: url(../img/vignette.png);
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 50px;
+    box-shadow: 20px 20px 200px;
+    padding-top: 50px;
+  }
+  
+  .lesme{margin-top: -20px;
+    margin-left: 450px;
+    margin-top: -15px;}

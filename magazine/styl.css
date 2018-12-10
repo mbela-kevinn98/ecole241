@@ -1,0 +1,14 @@
+div{color:#fff;
+display: inline-block;}
+
+nav li{display: inline-block;
+color: #fff;}
+
+.menu1{
+	border: 1px solid;
+	background-color:#08b597;
+	width: 1100px;
+	height: 30px;
+}
+*{margin: 0;
+padding: 0;}
