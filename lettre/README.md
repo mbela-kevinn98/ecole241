@@ -6,4 +6,7 @@
 &nbsp;
 
 
-`body{backgroud-color:blue;}`
+`body{
+&nbsp;
+
+backgroud-color:blue;}`
