@@ -1,0 +1,28 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+header{
+	background-color: #08b597;
+	width: ;
+	height:;
+	border:1px solid #08b597;
+}
+nav ul li{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+nav a{
+	color:#fff;
+}
+i{
+	color: #fff;
+	text-decoration: none;
+}
+i li{
+	text-decoration: none;
+	justify-content: f
+}
+
