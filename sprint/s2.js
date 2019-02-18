@@ -1,3 +1,7 @@
-for(let i=0; i<=21; i++){
-    console.log("Okacode!");
-}
+ var nombre = 18;
+            if (nombre>10){
+                console.log('Le nombre est superieur');
+            }
+            else{
+                console.log('Le nombre est pas superieur');
+            }
