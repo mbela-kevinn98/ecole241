@@ -1,7 +1,6 @@
- var nombre = 18;
-            if (nombre>10){
-                console.log('Le nombre est superieur');
-            }
-            else{
-                console.log('Le nombre est pas superieur');
-            }
+Soit nbre =  5 ;
+si (nbre >  10 ) {
+    console . log ( " Supérieur " );    
+} else {
+    console . log ( " Inférieur " );
+}
