@@ -1,2 +1,7 @@
-const prenom = prompt("Entrez votre prenom:");
-alert(`Bonjour, ${prenom}`);
+let nombre = 11;
+if (nombre > 10) {
+	console.log("Supérieur");
+}
+else {
+	console.log("Inférieur");
+}
