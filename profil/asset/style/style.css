@@ -1,129 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-ul li{
-    list-style: none;
+
+ul{
+  margin-left: 500px;
+  margin-top: 20px;
 }
-#block1{
-	border: 1px solid;
-	height: 500px;
+
+nav ul li{
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 20px;
 }
-#block2{
-	border: 1px solid;
-	width: 500px;
+nav ul li a{
+  color: #fff;
 }
+nav ul li a:hover{
+  text-decoration: none;
+  color: #000;
+}
+
 
 body{
-	overflow: hidden;
-	background-color: #ff8080;
+  background-image: url("../img/intro-bg.png");
+  background-color: red;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.main_sidebar{
-	background-color: #ccc;
-	height: 510px;
-	border: 1px solid;
-	width: 65px;
-	position: relative;
-	right: 5px;
-}
-.main_sidebar ul{
-	padding-left: 10px;
-    padding-top: 5px;
-    position: relative;
-    left: 10px;
-}
-.main_sidebar ul li a i{
-	padding-bottom: 1em;
-	font-size: 23px;
-}
-.main_sidebar ul li a i:nth-child(1){
-	background-color:  #ffe066;
-}
-#block2{
-	height: 500px;
-}
-.sous-titre{
-	padding-top: 10em;
-}
-.icon{
-    position: relative;
-    left: 30em;
-    top: 20px;
-  }
-  .icon span{
-  	padding-left: 10px;
-  }
-  hr{
-  	width: 210px;
-  	font-size: 20px;
-  	position: relative;
-  	right: 68px;
-  	background-color: black;
-  }
-  #block3 .t img{
-  	width: 35em;
-  	height: 35em;
-  	position: relative;
-  	left: 6em;
-  }
-  h1 strong{
-  	font-family: 'Montserrat', sans-serif;
-  	background-color: red;
-  	font-size: 50px;
-  	color: #ffe066;
-    }
-  h1 span{
-  	font-family: 'Montserrat', sans-serif;
-  }
-
-  h2{
-  	font-size: 40px;
-  	font-family: 'Open Sans Condensed', sans-serif;
-  	position: relative;
-  	top: 10px;
-  }
-  p{
-  	font-size: 10px;
-  }
-  button{
-  	font-size: 10px;
-  }
-  .sous-titre p{
-  	
-  	font-size: 10px;
-  }
-  #block2 .sous-titre{
-       position: relative;
-       top: 2em;
-       left: 2em;
-  }
-  #block3 {
-  	width: 41em;
-  }
-  #block3 .t .ecri{
-    position: relative;
-  	top: 40px;
-  	left: 2em;
-  }
-  #block3 .t p{
-  	position: relative;
-  	left: 3em;
-  	font-size: 20px;
-  }
-  button a {
-  	text-decoration: none;
-  	color: #fff;
-
-  }
-  button{
-  	background-color: #333;
-  	box-shadow: 3px 3px 0px #999;
-  	position: relative;
-  	top: 5px;
-  }
-  button a:hover{
-  	text-decoration: none;
-  	color: #ff8080;
-  }
-  button:hover{
-  	font-size: 12px;
-  }

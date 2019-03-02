@@ -9,6 +9,7 @@ body{
 	background-color:  red;
 	position: absolute;
 	height: 200px;
+	overflow: hidden;
 	
 }
 *{
@@ -75,18 +76,20 @@ h1 span{
 	position: relative;
 	bottom: 250px;
 	z-index: -1;
-	width: 600px;
-	height: 270px;
+	width: 630px;
+	height: 290px;
 }
 .image img{
 	width: 100%;
 	height: 100%;
+	position: relative;
+	bottom: 10px;
 }
 footer{
 	background-color: #1a1a1a;
 	position: relative;
 	bottom: 200px;
-	height: 70px;
+	height: 50px;
 }
 #footer p{
     display: inline-block;
@@ -120,13 +123,15 @@ footer{
 	font-size: 12px;
     color: #fff;
 	font-family: 'Staatliches', cursive;
+	position: relative;
+	top: 200px;
 }
 #poin{
 	
 	width: 25px;
 	margin-left: 550px;
 	position: relative;
-	bottom: 220px;
+	bottom: 240px;
 
 }
 #menu h1{
