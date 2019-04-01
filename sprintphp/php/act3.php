@@ -8,18 +8,11 @@
  <h1>Acte3</h1> <br><br>
  <h2>Le tableau associatif</h2>
 
-<? php
 
-$poidsAlimens = [1000, 1500, 2000, 5000];
- var_dump($poidsAliments);
-
-  $poidsAliments [
-  	'riz' => 1000,
-    'poulet' => 1500,
-    'legumes' => 2000,
-    'huil' => 5000,
-];
-? >
+<?php
+$Eleves=array("Din","Axel","Borys"); 
+echo "Les apprenants sont " . $Eleves[0] . ", " . $Eleves[1] . " and " . $Eleves[2] . ".";
+?>
  
 
 </body>
