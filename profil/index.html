@@ -1,274 +1,246 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-  <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <title>mkd</title>
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
- <link rel="stylesheet" type="text/css" href="swiper.min.css">
+<title>M K D</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+header p{
+  font-size: 30px;
+  color: #fff;
+  -webkit-animation: blur-out-contract-bck 3s infinite ;
+          animation: blur-out-contract-bck 3s infinite ;
+}
 
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+@-webkit-keyframes header p{
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-filter: blur(0.01);
+            filter: blur(0.01);
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+            transform: translateZ(-500px);
+    -webkit-filter: blur(12px) opacity(0%);
+            filter: blur(12px) opacity(0%);
+  }
+}
+@keyframes blur-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-filter: blur(0.01);
+            filter: blur(0.01);
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+            transform: translateZ(-500px);
+    -webkit-filter: blur(12px) opacity(0%);
+            filter: blur(12px) opacity(0%);
+  }
+}
 
-</head>
-<body>
-<header>
-  <nav>
-    <div class="logo">
-      <h2><a href="#accueil">MKD</a></h2>
-    </div>
-  <ul>
-    <li><a href="#accueil">Accueil</a></li>
-    <li><a href="#apropos">A Propos</a></li>
-    <li><a href="#realisation">Réalisations</a></li>
-    <li><a href="#temoignage">Témoignage</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#"><button>Téléchargez CV</button></a></li>
-  </ul>
+  html{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+ }
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width: 120px;background: #222;}
+
+#main {margin-left: 120px}
+
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+header img { -webkit-filter: brightness(20%); }
+
+div.icon i{
+	padding: 5px;
+}
+</style>
+<body class="w3-black">
+<!--partie de la nav-->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  
+  <img src="assets/img/LOGO.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Accueil</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>A Propos</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Réalisations</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
 </nav>
-<section class="accueil" id="accueil">
-  <div class="nom">
-    <span class="text1">Je suis MBELA Kevinn D</span>
-    <span class="text2">Developpeur web</span>
-  </div>
-</section>
-</header>
-<section class="apropos" id="apropos">
-  <br><br>
-  <h1>A Propos</h1>
-  <hr style="width: 200px;position: relative;bottom: 30px;color:#fff;background-color: #262626; height: 2px;">
-  <div class="box">
-    <img src="assets/img/kev1.jpg" style="; ">
-    <h2>MBELA Kevinn Donavann</h2>
-    <h5>Developpeur web</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut.</p>
-    <ul>
-      <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-      <li><a href="#"><i class="fa fa-github-square"></i></a></li>
-      <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-      <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-    </ul>
-  </div>
-</section>
-<br><br>
-<section class="skills">
-  <div class="skils">
-    <br><br>
-    <h1>Skills</h1>
-    <hr style="width: 68px; position:relative;bottom: 30px;color:#fff;background-color: #fff; height: 2px;">
-    <br><br>
-    <li>
-      
-    </li><h3>HTML5</h3><span class="bar"><span class="html"></span></span>
-     <li>
-      
-    </li><h3>CSS3</h3><span class="bar"><span class="css"></span></span>
-     <li>
-      
-    </li><h3>JAVASCRIPT</h3><span class="bar"><span class="js"></span></span>
-     <li>
-      
-    </li><h3>BOOTSTRAP</h3><span class="bar"><span class="bootstrap"></span></span>
-     <li>
-      
-    </li><h3>PHP</h3><span class="bar"><span class="php"></span></span>
-     <li>
-      
-    </li><h3>WORDPRESS</h3><span class="bar"><span class="wordpress"></span></span>
-  </div>
-</section>
+<!--partie de la nav end-->
 
-<section class="reali" id="realisation">
-  <div class="container">
-    <div class="row">
-      <h1>Réalisations</h1>
-      <hr style="width: 300px;height: 2px;color:#262626;background-color: #262626; position:relative;bottom: 10px;">
-      <br><br>
-      <p></p>
-    </div>
-    <div class="row mrgt50px">
-      <div class="column">
-        <div class="img">
-          <img style="height: 230px;" src="assets/img/myga.png">
-        </div>
-        <div class="details">
-          <h3>Myga.domaine <br><span>refont</span></h3>
-          <ul>
-            <li><a href=""><i class="fa fa-search" aria-hidden="true"></i>
-</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="img">
-          <img src="assets/img/LOGO.jpg">
-        </div>
-        <div class="details">
-          <h3>Member name <br><span>CEO and founder</span></h3>
-          <ul>
-            <li><a href=""><i class="fa fa-search" aria-hidden="true"></i>
-</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="img">
-          <img src="assets/img/LOGO.jpg">
-        </div>
-        <div class="details">
-          <h3>Member name <br><span>CEO and founder</span></h3>
-          <ul>
-            <li><a href=""><i class="fa fa-search" aria-hidden="true"></i>
-</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="img">
-          <img src="assets/img/LOGO.jpg">
-        </div>
-        <div class="details">
-          <h3>Member name <br><span>CEO and founder</span></h3>
-          <ul>
-            <li><a href=""><i class="fa fa-search" aria-hidden="true"></i>
-</a></li>
-          </ul>
-        </div>
-      </div>
-      <div style="clear: both;"></div>
-    </div>
-  </div>
-</section>
-
-<section class="temoignage" id="temoignage">
-  <br><br><br>
-  <h1>Témoignages</h1>
-  <hr style="width: 300px;height: 2px;color: #000;background-color: #fff; position:relative;bottom: 20px;">
-  <br><br><br><br><br>
-  
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-
-      <div class="swiper-slide">
-        <div class="imgbox">
-          <img src="assets/img/mm.jpeg">
-        </div>
-        <div class="detail">
-          <h3>Mm Sylvie Toure <br><span>hyper tex comme html</span></h3>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="imgbox">
-          <img src="assets/img/mr.jpg">
-        </div>
-        <div class="detail">
-          <h3>Mm Sylvie Toure <br><span>css</span></h3>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="imgbox">
-          <img src="assets/img/mm.jpeg">
-        </div>
-        <div class="detail">
-          <h3>Mm Sylvie Toure <br><span>journée de folie</span></h3>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="imgbox">
-          <img src="assets/img/mr.jpg">
-        </div>
-        <div class="detail">
-          <h3>Mm Sylvie Toure <br><span>bonjour les amis</span></h3>
-        </div>
-      </div>
-
-      <div class="swiper-slide">
-        <div class="imgbox">
-          <img src="assets/img/mm.jpeg">
-        </div>
-        <div class="detail">
-          <h3>Mm Sylvie Toure <br><span>je suis fiere de ce jeune homme et de toutce qu'il a fait</span></h3>
-        </div>
-      </div>
-
-      
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
-  
-</section>
-<br><br><br><br>
-
-
-<section  class="contact" id="contact">
-  <div class="container">
-  <div class="row">
-      <h1>contact</h1>
-      <hr style="width: 200px;height: 2px;color:#262626;background-color: #262626; position:relative;bottom: 10px;">
-  </div>
-  <div class="row">
-      <h4 style="text-align:center">Contactez moi!</h4>
-  </div>
-  <div class="row input-container">
-      <div class="col-xs-12">
-        <div class="styled-input wide">
-          <input type="text" required />
-          <label>Name</label> 
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="styled-input">
-          <input type="text" required />
-          <label>Email</label> 
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="styled-input" style="float:right;">
-          <input type="text" required />
-          <label>Phone Number</label> 
-        </div>
-      </div>
-      <div class="col-xs-12">
-        <div class="styled-input wide">
-          <textarea required></textarea>
-          <label>Message</label>
-        </div>
-      </div>
-      <div class="col-xs-12">
-        <div class="btn-lrg submit-btn">Evoyer</div>
-      </div>
+<!--partie de la nav resposive-->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">Accueil</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">A Propos</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">Réalisations</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
 </div>
-</section>
+<!--partie de la nav resposive end-->
+<!--partie accueil-->
+<div class="w3-padding-large" id="main">
+  
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Je suis</span> MBELA Kevinn D.</h1>
+    <p>Developpeur web.</p>
+    <img src="assets/img/kev1.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+  <!--partie accueil end-->
 
+  <!--partie apropos-->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">A Propos</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Je suis MBELA Kevinn Donavann developpeur web et apprenant de Ecole 241. Je suis mombre du GDG(Google Developpeur Groupe) de libreville, co fondateur de la startup GreenApp, fondateur de Kbora....
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Skills</h3>
+    <p class="w3-wide">Html</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Css</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">Javascript</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:40%"></div>
+    </div>
+    <p class="w3-wide">Php</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:35%"></div>
+    </div>
+     <p class="w3-wide">Wordpress</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div>
+    <p class="w3-wide">Bootstrap</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:40%"></div>
+    </div>
+    <p class="w3-wide">Leadership</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:55%"></div>
+    </div>
+    <p class="w3-wide">Busnes</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:45%"></div>
+    </div>
+    <br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5+</span><br>
+        Partnaire
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Projets rendus
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Clients satisfaits
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Tasse de café
+      </div>
+    </div>
 
-<script type="text/javascript" src="swiper.min.js"></script>
- <script>
-    var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 60,
-        stretch: 0,
-        depth: 800,
-        modifier: 5,
-        slideShadows : true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-  </script>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download cv
+    </button>
+    
+    
+   
 
+      
+    
+    <h3 class="w3-padding-24 w3-text-light-grey">Temoignages</h3>  
+    <img src="assets/img/mr.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Sylvere BOUSSAMBA.</span> Directeur de Ecole{241} et fondateur d'OgooueLabs.</p>
+    <p>Jane Doe saved us from a web disaster.</p><br>
+    
+    <img src="assets/img/mm.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Sylvie TOURE</span> CME de l'Ecole{241} et fondatrice d'OKOUME GABON.</p>
+    <p>No one is better than Jane Doe.</p>
+    <!--partie apropos end-->
 
+    <!--partie realisations-->
+  </div>
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Mes réalisations</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="assets/img/my.png" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div>
+    
+    </div>
+  
+  </div>
+  <!--partie realisations end-->
+
+  <!--partie contact-->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Libreville Nzeng-Ayong</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tel: +241 02 63 41 14/04 56 95 28</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mbalevin@gmail.com</p>
+    </div><br>
+    <p>Permet d'entrer en contact. Envoyez-moi un message:</p>
+
+    <form action="MAILTO:mbalevin@gmail.com"method="post" enctype="text/plain>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nom" required name="Nom"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subjet" required name="Subjet"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> EVOYEZ
+        </button>
+      </p>
+    </form>
+  
+  </div>
+  <div class="icon">
+  
+   <i class="fa fa-twitter"></i></i><i class="fa fa-github"></i><i class="fa fa-facebook"></i>
+   
+<!--partie contact end-->
 </body>
 </html>
